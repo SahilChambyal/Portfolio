@@ -18,6 +18,7 @@ const Skills = () => {
                     width={image.width}
                     height={image.height}
                     index={index}
+                    key={index}
 
                     />
                 ))}
@@ -29,6 +30,7 @@ const Skills = () => {
                     width={image.width}
                     height={image.height}
                     index={index}
+                    key={index}
 
                     />
                 ))}
@@ -40,6 +42,7 @@ const Skills = () => {
                     width={image.width}
                     height={image.height}
                     index={index}
+                    key={index}
 
                     />
                 ))}
@@ -51,6 +54,7 @@ const Skills = () => {
                     width={image.width}
                     height={image.height}
                     index={index}
+                    key={index}
 
                     />
                 ))}
