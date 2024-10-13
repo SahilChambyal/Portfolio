@@ -35,12 +35,12 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row gap-5'>
                 {Socials.map((social) =>(
-                    <div className='hover:cursor-pointer hover:scale-110 transition-all' onClick={() =>handleClick(social.url)}>
+                    <div className='hover:cursor-pointer hover:scale-110 transition-all' onClick={() =>handleClick(social.url)} key={social.name}>
 
                     <Image 
                     src={social.src}
                     alt={social.name}
-                    key={social.name}
+                    // key={social.name}
                     width={24}
                     height={24}
                     />
