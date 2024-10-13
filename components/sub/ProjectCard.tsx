@@ -20,7 +20,7 @@ const ProjectCard = ({src, title, description,url}: Props) => {
       alt={title}
       width={1000}
       height={1000}
-      className='w-full object-contain'
+      className='w-full object-contain opacity-60 hover:opacity-100 transition-all'
       />
       </div>
 

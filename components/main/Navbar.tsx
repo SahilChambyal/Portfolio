@@ -1,8 +1,12 @@
+'use client'
 import { Socials } from '@/constants';
 import Image from 'next/image';
 import React from 'react'
 
 const Navbar = () => {
+    const handleClick = (url:string) => {
+        window.open(url,'_blank');
+    }
   return (
     <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10'>
         <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
@@ -31,6 +35,8 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row gap-5'>
                 {Socials.map((social) =>(
+                    <div className='hover:cursor-pointer hover:scale-110 transition-all' onClick={() =>handleClick(social.url)}>
+
                     <Image 
                     src={social.src}
                     alt={social.name}
@@ -38,6 +44,7 @@ const Navbar = () => {
                     width={24}
                     height={24}
                     />
+                    </div>
                 ))}
 
             </div>

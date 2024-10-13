@@ -82,17 +82,28 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "GitHub",
+      src: "/gitwhite.png",
+      url:'https://github.com/sahilchambyal'
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "LeetCode",
+      src: "/leetcodeWhite.svg",
+      url:'https://leetcode.com/u/sahilchambyal/'
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "LinkedIn",
+      src: "/linkedin.svg",
+      url:'https://www.linkedin.com/in/sahil-chambyal07/'
     },
+    // {
+    //   name: "Facebook",
+    //   src: "/facebook.svg",
+    // },
+    // {
+    //   name: "Instagram",
+    //   src: "/discord.svg",
+    // },
   ];
   
   
